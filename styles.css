@@ -95,16 +95,6 @@ img {
   letter-spacing: 0.02em;
 }
 
-.brand-logo {
-  display: block;
-  height: 78px;
-  width: auto;
-}
-
-.brand-logo-footer {
-  height: 92px;
-}
-
 .brand-mark {
   display: inline-grid;
   place-items: center;
@@ -265,6 +255,11 @@ img {
 .button-small {
   min-height: 44px;
   padding: 0.7rem 1rem;
+}
+
+.text-link {
+  color: var(--gold);
+  font-weight: 700;
 }
 
 .trust-list,
@@ -529,6 +524,13 @@ img {
   margin: 0;
 }
 
+.service-card a,
+.detail-card a,
+.gallery-card a,
+.review-card a {
+  margin-top: 0.85rem;
+}
+
 .lead-form.light input,
 .lead-form.light select,
 .lead-form.light textarea {
@@ -648,14 +650,6 @@ img {
 
   .nav-toggle {
     display: block;
-  }
-
-  .brand-logo {
-    height: 58px;
-  }
-
-  .brand-logo-footer {
-    height: 74px;
   }
 
   .trust-list,
