@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.llpainting.com/sitemap.xml
+Sitemap: https://ll-painting-website-6jl02rb5g-maxmike93s-projects.vercel.app/sitemap.xml
