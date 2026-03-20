@@ -609,8 +609,16 @@ img {
   font-weight: 700;
 }
 
-.counterapi {
+.visitor-counter-value {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 52px;
   min-height: 32px;
+  padding: 0 0.85rem;
+  border-radius: 999px;
+  background: rgba(243, 199, 102, 0.14);
+  color: var(--white);
 }
 
 .mobile-cta {
