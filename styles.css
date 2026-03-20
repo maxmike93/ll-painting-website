@@ -596,6 +596,23 @@ img {
   margin: 0.4rem 0;
 }
 
+.visitor-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(243, 199, 102, 0.14);
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.counterapi {
+  min-height: 32px;
+}
+
 .mobile-cta {
   position: fixed;
   left: 0;
